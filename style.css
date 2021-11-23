@@ -6,13 +6,21 @@
     width: 150px;
     float: left;
     margin-right: 10px; 
+    padding: 2px;
+    background-color: black;
+    border-radius: 100%;
 }
 #biografia {
     font-family: monospace;
+    font-size: larger;
+    padding: 2px;
+    background-color: rgb(207, 166, 193);
+    margin-top: 50px;
+    margin-left: 15px;
    
 }
 #habilidades {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .habilidade1 {
     font-size: 20px;
@@ -40,4 +48,8 @@ body {
     background-color: darkmagenta;
     padding: 3px 3px;
     border-radius: 5%;
+}
+li:nth-child(odd){
+    background-color: rgb(240, 172, 240);
+}
   
