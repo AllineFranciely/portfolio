@@ -1,0 +1,55 @@
+#autora {
+    font-family: monospace;
+    text-align: center;
+} 
+#foto {
+    width: 150px;
+    float: left;
+    margin-right: 10px; 
+    padding: 2px;
+    background-color: black;
+    border-radius: 100%;
+}
+#biografia {
+    font-family: monospace;
+    font-size: larger;
+    padding: 2px;
+    background-color: rgb(207, 166, 193);
+    margin-top: 50px;
+    margin-left: 15px;
+   
+}
+#habilidades {
+    margin-top: 50px;
+}
+.habilidade1 {
+    font-size: 20px;
+}
+.habilidade2 {
+    font-size: 19.5px;
+}
+.habilidade3 {
+    font-size: 19px;
+}
+.habilidade4 {
+    font-size: 18.5px;
+}
+.habilidade5 {
+    font-size: 18px;
+}
+.habilidade6 {
+    font-size: 17.5px;
+}
+body {
+    background-color: rgb(215, 186, 243);
+}
+.buttom {
+    color:cornsilk;
+    background-color: darkmagenta;
+    padding: 3px 3px;
+    border-radius: 5%;
+}
+li:nth-child(odd){
+    background-color: rgb(240, 172, 240);
+}
+  
